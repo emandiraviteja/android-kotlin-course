@@ -9,7 +9,7 @@ This sample Android project demonstrates the most common **UI elements** in Andr
 ---
 
 ### 📋 1. TextView
-- **Description:** Displays static text.
+- **Description:** TextView is a basic UI component in Android used to display static or dynamic text on the screen.
 - **Used For:** Labels, headings, messages.
 
 ```xml
@@ -19,9 +19,9 @@ This sample Android project demonstrates the most common **UI elements** in Andr
     android:layout_height="wrap_content"
     android:text="Hello, World!" />
 
+Syntax:
 val textView = findViewById<TextView>(R.id.textView)
 textView.text = "Updated Text"
-
 
 ### 🧑‍💼 2. EditText
 
