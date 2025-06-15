@@ -4,7 +4,7 @@ This project introduces you to the Kotlin programming language in an Android env
 
 ---
 
-✅ Topics Covered
+## ✅ Topics Covered
 
     What is Kotlin and why it’s used for Android
 
