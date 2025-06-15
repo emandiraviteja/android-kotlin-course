@@ -1,4 +1,8 @@
-Module 2: Android Basics (Week 2)
+# Module 2: Android Basics (Week 2)
+
+This module introduces core Kotlin concepts with self-contained Android Studio projects for each topic.
+
+---
 
 2.1 Introduction to Android
 
