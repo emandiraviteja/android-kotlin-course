@@ -11,13 +11,13 @@ Kotlin v1.0 released
 May 2017 Google announced Kotlin as an official Android language
 May 2019 Google made Kotlin the preferred Android language
 
-✨ Kotlin Features (with examples)
+✨ Kotlin Features (with examples):
 
-Concise Syntax
+-Concise Syntax
 Kotlin reduces boilerplate code compared to Java.
 val name = "Teja"  // Declares an immutable variable with type inference
 
-Null Safety
+-Null Safety
 var name: String? = null  // Nullable type
 println(name?.length)     // Safe call operator avoids NullPointerException
 Extension Functions
