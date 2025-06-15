@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.a16_nullsafety"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.a16_nullsafety"
@@ -37,10 +37,14 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation ("androidx.core:core-ktx:1.12.0")
+    implementation ("androidx.core:core:1.12.0")
 }
