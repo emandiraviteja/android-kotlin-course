@@ -76,14 +76,32 @@ marks.remove("Math")        // Remove a key
 
 println(marks)              // Output: {English=85, Science=88}
 
-🧠 Learning Outcomes
+🔹 Generics in Kotlin
 
-By the end of this lesson, you’ll be able to:
+What Are Generics?
+Generics allow you to write type-safe, reusable, and flexible code.
+Instead of writing the same class or function for different types (e.g., Int, String, Boolean), you can use a type parameter like T (or multiple like T, R) that will be replaced with the actual type at compile time.
 
-    Differentiate between mutable and immutable collections
+🔧 Why Use Generics?
+Code reuse, type safe, Cleaner, more flexible
 
-    Use lists, sets, and maps effectively
+🧑‍🏫 Basic Generic Class Example
+// Generic class with one type parameter T
+class Box<T>(val content: T) {
+    fun getContent(): T {
+        return content
+    }
+}
 
-    Perform common operations like add, remove, check, and access
+T is a type parameter. You can name it anything, but T is a common convention.
+Box can now hold any type of data: Box<Int>, Box<String>, etc.
 
-    Understand the importance of data structure choice in Kotlin
+🔍 Using the Generic Class
+val intBox = Box(123)              // T becomes Int
+val stringBox = Box("Kotlin")      // T becomes String
+
+println(intBox.getContent())       // Output: 123
+println(stringBox.getContent())    // Output: Kotlin
+
+Kotlin infers the type automatically.
+You can also explicitly write: Box<String>("Hello")
