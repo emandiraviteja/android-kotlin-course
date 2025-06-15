@@ -13,7 +13,7 @@ May 2019 Google made Kotlin the preferred Android language
 
 ✨ Kotlin Features (with examples):
 
--Concise Syntax
+# Concise Syntax
 Kotlin reduces boilerplate code compared to Java.
 val name = "Teja"  // Declares an immutable variable with type inference
 
