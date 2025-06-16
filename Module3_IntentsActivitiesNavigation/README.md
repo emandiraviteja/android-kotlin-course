@@ -1,4 +1,7 @@
-Module 3: Intents, Activities & Navigation (Week 3)
+# Module 3: Intents, Activities & Navigation (Week 3)
+
+---
+
 3.1 Multiple Activities
 Starting activities with Intent
 
