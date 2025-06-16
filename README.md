@@ -14,35 +14,35 @@ Welcome to the **Android Kotlin Course**! This course is structured into multipl
 - [1.5 Collections & Generics](Module1_KotlinFundamentals/1.5_CollectionsGenerics/)
 - [1.6 Null Safety](Module1_KotlinFundamentals/1.6_NullSafety/)
 
-### 📗 Module 2: Android Basics
+### 📘 Module 2: Android Basics
 - [2.1 Android Introduction](Module2_AndroidBasics/2.1_AndroidIntro/)
 - [2.2 First App](Module2_AndroidBasics/2.2_FirstApp/)
 - [2.3 Layouts & UI](Module2_AndroidBasics/2.3_LayoutsAndUI/)
 - [2.4 Event Handling](Module2_AndroidBasics/2.4_EventHandling/)
 
-### 📙 Module 3: Intents, Activities & Navigation
+### 📘 Module 3: Intents, Activities & Navigation
 - [3.1 Multiple Activities](Module3_IntentsActivitiesNavigation/3.1_MultipleActivities/)
 - [3.2 Fragments](Module3_IntentsActivitiesNavigation/3.2_Fragments/)
 - [3.3 Navigation Component](Module3_IntentsActivitiesNavigation/3.3_NavigationComponent/)
 
-### 📕 Module 4: Advanced UI
+### 📘 Module 4: Advanced UI
 - [4.1 RecyclerView](Module4_AdvancedUI/4.1_RecyclerView/)
 - [4.2 Menus & Toolbars](Module4_AdvancedUI/4.2_MenusToolbars/)
 - [4.3 Dialogs](Module4_AdvancedUI/4.3_Dialogs/)
 
-### 🧩 Module 5: Architecture & Jetpack
+### 📘 Module 5: Architecture & Jetpack
 - [5.1 ViewModel & LiveData](Module5_ArchitectureJetpack/5.1_ViewModelLiveData/)
 - [5.2 Room Database](Module5_ArchitectureJetpack/5.2_RoomDatabase/)
 - [5.3 Data Binding](Module5_ArchitectureJetpack/5.3_DataBinding/)
 - [5.4 Dependency Injection](Module5_ArchitectureJetpack/5.4_DependencyInjection/)
 
-### 🌐 Module 6: Networking
+### 📘 Module 6: Networking
 - [6.1 Permissions & Connectivity](Module6_Networking/6.1_PermissionsConnectivity/)
 - [6.2 Retrofit](Module6_Networking/6.2_Retrofit/)
 - [6.3 Coroutines](Module6_Networking/6.3_Coroutines/)
 - [6.4 Error & States](Module6_Networking/6.4_ErrorStates/)
 
-### 🚀 Module 7: Modern Android
+### 📘 Module 7: Modern Android
 - [7.1 Jetpack Compose](Module7_ModernAndroid/7.1_JetpackCompose/)
 - [7.2 WorkManager](Module7_ModernAndroid/7.2_WorkManager/)
 - [7.3 Media & Permissions](Module7_ModernAndroid/7.3_MediaPermissions/)
