@@ -1,6 +1,8 @@
-# 🟡 1. "Hello World" Project
+# ✅ Module 2.2 : First Android App
 
-## 📘 What is it?
+## 👉 "Hello World" Project
+
+**What is it?**
 
 The **"Hello World"** project is the traditional first step in learning any new programming language or platform. It helps you understand:
 
@@ -10,14 +12,14 @@ The **"Hello World"** project is the traditional first step in learning any new 
 
 ---
 
-## 🔨 How to Create the Project
+### ⚡How to Create the Project
 
 In Android Studio:  
 **New Project → Empty Activity → Name:** `HelloWorldApp`
 
 ---
 
-## 🧱 Project Files Overview
+### ⚡Project Files Overview
 
 HelloWorldApp/
 ├── MainActivity.kt
@@ -27,10 +29,9 @@ HelloWorldApp/
 ├── manifests/
 │ └── AndroidManifest.xml
 
-
 ---
 
-## 🧠 Why We Use XML for UI?
+**Why We Use XML for UI?**
 
 - ✅ **Separation of concerns:** UI is defined in XML, logic is in Kotlin
 - ✅ Easy to **preview and edit visually** in Android Studio
@@ -38,17 +39,16 @@ HelloWorldApp/
 
 ---
 
-## 💬 Output:
+**Output:**
 
 The app launches and displays:
-
 > **"Hello, World!"** in the center of the screen
 
 ---
 
-# 🔁 2. Activity Lifecycle Overview
+## 👉 Activity Lifecycle Overview
 
-## 📘 What is Activity Lifecycle?
+**What is Activity Lifecycle?**
 
 Every Android `Activity` goes through a **lifecycle** — from creation to destruction. Android automatically calls lifecycle methods when:
 
@@ -59,7 +59,7 @@ Every Android `Activity` goes through a **lifecycle** — from creation to destr
 
 ---
 
-## 🔄 Lifecycle Methods
+### ⚡ Lifecycle Methods
 
 | Method       | Called When...                        |
 |--------------|----------------------------------------|
@@ -72,42 +72,40 @@ Every Android `Activity` goes through a **lifecycle** — from creation to destr
 
 ---
 
-## ✅ Syntax & Example
+**Syntax & Example**
 
-```kotlin
+```
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     Log.d("ActivityLife", "onCreate called")
 }
+```
 
-📌 Use Case:
+**Use Case:**
 Method	Common Use
 onCreate()	Setup UI, initialize views, fetch data
 onPause()	Save temporary state
 onDestroy()	Clean up memory, close DB/files
 
-🖥️ 3. Logging with Logcat
-📘 What is Logcat?
-
+## 👉 Logging with Logcat
+**What is Logcat?**
 Logcat is a built-in console in Android Studio that displays real-time logs from your device or emulator — system logs, crash logs, and app logs.
 
-✅ Syntax:
-
+**Syntax:**
+```
 Log.d("TAG", "Debug message")
 Log.i("TAG", "Info message")
 Log.w("TAG", "Warning message")
 Log.e("TAG", "Error message")
+```
 
-💡 Example in MainActivity.kt
-
+**Example in MainActivity.kt**
+```
 Log.d("HelloWorldApp", "App started successfully!")
+```
 
-📌 Use Case:
-
-    ✅ Debug logic and flow
-
-    ✅ Track lifecycle events
-
-    ✅ Log user actions or state
-
-    ✅ Detect crashes or unexpected behavior
+**Use Case:**
+Debug logic and flow
+Track lifecycle events
+Log user actions or state
+Detect crashes or unexpected behavior
