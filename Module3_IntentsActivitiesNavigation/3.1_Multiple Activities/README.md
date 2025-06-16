@@ -28,13 +28,13 @@ Use Intent.putExtra() to send data, and intent.getStringExtra() to receive it.
 **Use Case:**
 Passing user name or ID from Login to Profile screen
 
-✏️ Sender Code (MainActivity)
+Sender Code (MainActivity)
 ```
 val intent = Intent(this, SecondActivity::class.java)
 intent.putExtra("username", "Teja")
 startActivity(intent)
 ```
-✏️ Receiver Code (SecondActivity)
+Receiver Code (SecondActivity)
 ```
 val name = intent.getStringExtra("username")
 textView.text = "Welcome, $name"
