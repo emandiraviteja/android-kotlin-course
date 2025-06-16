@@ -3,40 +3,35 @@
 
 ---
 
-## 🧱 1. Android Architecture Overview
+## 👉 Android Architecture Overview
 
 Android is based on a layered architecture divided into 4 main components:
 
 |-----------------------------------|
 Applications (Top Layer)
 Android Framework Layer
------------------------------------
+|-----------------------------------|
 Android Runtime + Libraries
------------------------------------
+|-----------------------------------|
 Linux Kernel (Bottom Layer)
 
-
-### 🔹 Layers in Detail
-
-#### 1️⃣ Linux Kernel
+### ⚡ Linux Kernel
 - Manages hardware drivers: camera, memory, keyboard, etc.
 - Acts as a bridge between hardware and software.
 
-#### 2️⃣ Android Runtime (ART) + Core Libraries
+### ⚡ Android Runtime (ART) + Core Libraries
 - **ART**: Replaces Dalvik VM. Every app runs in its own process with its own ART instance.
 - **Core Libraries**: Provide Java & Kotlin standard APIs.
 
-#### 3️⃣ Android Framework
+### ⚡ Android Framework
 - Provides APIs to build Android apps:  
   `ActivityManager`, `NotificationManager`, `View`, `ContentResolver`, etc.
 
-#### 4️⃣ Applications Layer
+### ⚡ Applications Layer
 - Built-in apps (Phone, Contacts, SMS)
 - User-installed apps
 
----
-
-## 📦 2. Core Android Components
+## 👉 Core Android Components
 
 | Component        | Description                              | Example Use Case             |
 |------------------|------------------------------------------|------------------------------|
@@ -45,41 +40,39 @@ Linux Kernel (Bottom Layer)
 | **BroadcastReceiver** | Responds to system-wide broadcast messages | Low battery alert, SMS received |
 | **ContentProvider** | Shares data between apps               | Contacts, Calendar access    |
 
----
 
-### 🟦 Activity
+### ⚡Activity
 
-**📘 What is it?**  
+**What is it?**  
 A single, focused screen the user interacts with.
 
-**✅ Syntax:**
-```kotlin
+**Syntax:**
+```
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
 }
-
-📍 Usage:
+```
+**Usage:**
 
     Each screen in your app = one Activity
-
     Launched via Intent
 
-📌 Example:
-
+**Example:**
+```
 val intent = Intent(this, SecondActivity::class.java)
 startActivity(intent)
+```
 
+### ⚡Service
 
-🟨 Service
-
-📘 What is it?
+What is it?
 A component that runs in the background without a UI.
 
-✅ Syntax:
-
+**Syntax:**
+```
 class MyService : Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // Perform background task
@@ -88,60 +81,58 @@ class MyService : Service() {
 
     override fun onBind(intent: Intent?): IBinder? = null
 }
-
-📍 Usage:
+```
+**Usage:**
 
     Play music
-
     Upload files
 
-📌 Start Service:
-
+**Start Service:**
+```
 val intent = Intent(this, MyService::class.java)
 startService(intent)
+```
 
+### ⚡ BroadcastReceiver
 
-🟥 BroadcastReceiver
-
-📘 What is it?
+**What is it?
 Listens to system-wide or app-wide broadcast messages.
 
-✅ Syntax:
-
+**Syntax:**
+```
 class BatteryReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         Toast.makeText(context, "Battery low!", Toast.LENGTH_SHORT).show()
     }
 }
-
-📌 Register in Manifest:
-
+```
+**Register in Manifest:**
+```
 <receiver android:name=".BatteryReceiver">
     <intent-filter>
         <action android:name="android.intent.action.BATTERY_LOW" />
     </intent-filter>
 </receiver>
+```
 
+### ⚡ContentProvider
 
-🟩 ContentProvider
-
-📘 What is it?
+**What is it?
 Used to share data between apps using a common interface.
 
-✅ Syntax:
-
+**Syntax:**
+```
 val cursor = contentResolver.query(
     ContactsContract.Contacts.CONTENT_URI,
     null, null, null, null
 )
-
-📍 Usage:
+```
+**Usage:**
 
     Read contacts, SMS, media
-
     Create custom providers to expose app data
 
-📁 3. Android Project Structure Overview
+## 👉 Android Project Structure Overview
 
 When you create a project, it looks like:
 
@@ -161,13 +152,13 @@ MyApp/
 │   │   └── styles.xml
 ├── build.gradle
 
-
-🔍 Folder Purposes
-Folder/File	Purpose
-AndroidManifest.xml	Declares app components, permissions
-MainActivity.kt	Main logic file (entry point)
-layout/	UI design XMLs
-drawable/	Images and shapes
-values/	Strings, colors, styles, dimensions
-build.gradle	Dependencies and build settings
+### ⚡Folder Purposes
+| Folder/File          | Purpose                                  |
+|----------------------|------------------------------------------|
+| `AndroidManifest.xml`| Declares app components, permissions     |
+| `MainActivity.kt`     | Main logic file (entry point)            |
+| `layout/`             | UI design XMLs                           |
+| `drawable/`           | Images and shapes                        |
+| `values/`             | Strings, colors, styles, dimensions      |
+| `build.gradle`        | Dependencies and build settings          |
 
