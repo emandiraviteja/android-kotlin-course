@@ -6,7 +6,7 @@ Welcome to the **Android Kotlin Course**! This course is structured into multipl
 
 ## 📚 Course Modules
 
-### 📘 Module 1: Kotlin Fundamentals
+### 📘 Module 1: - [Kotlin Fundamentals](Module1_KotlinFundamentals)
 - [1.1 Introduction to Kotlin](Module1_KotlinFundamentals/1.1_IntroductionToKotlin/)
 - [1.2 Kotlin Basics](Module1_KotlinFundamentals/1.2_KotlinBasics/)
 - [1.3 Functions](Module1_KotlinFundamentals/1.3_Functions/)
