@@ -1,25 +1,26 @@
-# 📦 Android Kotlin: 3.2 – Fragments
+# ✅ 3.2 – Fragments
 
 This lesson covers how to create, use, and communicate with fragments in Android using Kotlin.
 
 ---
 
-## 🔍 What is a Fragment?
+## 👉 What is a Fragment?
 
-A **Fragment** is a modular section of an `Activity` that has its own lifecycle and UI. Fragments are commonly used for:
+A Fragment is a reusable piece of an app’s UI or behavior that lives inside an Activity.
+Think of a Fragment like a mini-Activity that can be swapped in/out of your screen.
+
+Fragments are commonly used for:
 
 - Reusable UI components
 - Supporting tablet layouts
 - Navigation via tabs or bottom nav
 - Dynamic UIs
 
----
+## 👉 Creating a Fragment
 
-## 🧱 Creating a Fragment
+**Create the Fragment Class**
 
-### 1️⃣ Create the Fragment Class
-
-```kotlin
+```
 class MyFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,9 +29,11 @@ class MyFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_my, container, false)
     }
 }
+```
 
-2️⃣ Layout for Fragment – fragment_my.xml
+**XML-Syntax**
 
+```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -42,31 +45,43 @@ class MyFragment : Fragment() {
         android:layout_height="wrap_content"
         android:text="Hello from Fragment" />
 </LinearLayout>
+```
 
-🧲 Adding Fragment to Activity
-✅ Static (XML)
+<br>
 
+**Adding Fragment to Activity**
+
+Static (XML)
+
+```
 <fragment
     android:id="@+id/staticFragment"
     android:name="com.example.MyFragment"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
+```
 
-✅ Dynamic (Kotlin)
+Dynamic (Kotlin)
 
+```
 val fragment = MyFragment()
 supportFragmentManager.beginTransaction()
     .replace(R.id.fragmentContainer, fragment)
     .commit()
+```
 
 In your activity layout:
 
+```
 <FrameLayout
     android:id="@+id/fragmentContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
 
-🔁 Fragment Lifecycle
+ ```   
+
+**Fragment Lifecycle**
+
 | Lifecycle Method         | Description                      |
 | ------------------------ | -------------------------------- |
 | `onAttach()`             | Fragment is attached to Activity |
@@ -80,12 +95,16 @@ In your activity layout:
 | `onDetach()`             | Fragment detached from Activity  |
 
 
-🔗 Fragment ↔ Activity Communication
-🔹 From Fragment to Activity (Interface)
+## 👉 Fragment ↔ Activity Communication
+
+From Fragment to Activity (Interface)
+```
 interface MyListener {
     fun onMessageSent(msg: String)
 }
+```
 
+```
 class MyFragment : Fragment() {
     private var listener: MyListener? = null
 
@@ -98,22 +117,26 @@ class MyFragment : Fragment() {
         listener?.onMessageSent("Hello Activity!")
     }
 }
-
-
+```
+```
 class MainActivity : AppCompatActivity(), MyListener {
     override fun onMessageSent(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
     }
 }
+```
 
-🔹 From Activity to Fragment
+## 👉 From Activity to Fragment
 
+```
 val fragment = supportFragmentManager.findFragmentById(R.id.fragmentContainer) as MyFragment
 fragment.updateUI("Message from Activity")
-
+```
+```
 fun updateUI(text: String) {
     view?.findViewById<TextView>(R.id.fragmentText)?.text = text
 }
+```
 
 
 💡 Common Use Cases
@@ -124,8 +147,12 @@ fun updateUI(text: String) {
 | Settings Screen      | Each settings category is a fragment      |
 | Bottom Navigation    | Fragments switch via BottomNavigationView |
 
-📘 Summary
+## 👉Summary
+
 Fragments are reusable UI components.
+
 You can load them statically or dynamically.
+
 They have a rich lifecycle for fine control.
+
 Communication is done using interfaces or FragmentManager.
