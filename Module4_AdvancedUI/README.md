@@ -1,27 +1,19 @@
-Module 4: Advanced UI (Week 4)
-4.1 RecyclerView
-Adapter & ViewHolder patterns
+# Module 4: Advanced UI (Week 4)
+
+## 4.1 RecyclerView
+ - Adapter & ViewHolder patterns
+ - ListAdapter & DiffUtil for efficient updates
+- Handling item clicks
 
 
-ListAdapter & DiffUtil for efficient updates
+## 4.2 Menus & Toolbars
+
+- AppBar customization
+- Options menus, context menus, popup menus
 
 
-Handling item clicks
+## 4.3 Dialogs
 
-
-4.2 Menus & Toolbars
-AppBar customization
-
-
-Options menus, context menus, popup menus
-
-
-4.3 Dialogs
-Using AlertDialog
-
-
-Custom dialogs
-
-
-Bottom Sheets
-
+- Using AlertDialog
+- Custom dialogs (Date and Time Picker Dialogs)
+- Bottom Sheets
