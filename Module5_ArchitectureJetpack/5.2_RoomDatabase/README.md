@@ -218,14 +218,12 @@ dependencies {
 ```
 
 ---
-## 👉 Mini-project using Room with MVVM
+## 👉 Mini-project - Simple User Manager App - using Room with MVVM
 
 - Room Database
 - MVVM Architecture
 - LiveData + ViewModel
 - Repository Pattern
-
-**Project: Simple User Manager App**
 
 **Features:**
 Add user (name, email)
