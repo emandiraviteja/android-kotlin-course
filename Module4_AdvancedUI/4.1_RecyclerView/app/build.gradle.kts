@@ -45,9 +45,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation ("androidx.core:core-ktx:1.12.0")
-    implementation ("androidx.core:core:1.12.0")
-
-    implementation ("androidx.recyclerview:recyclerview:1.3.2")
-    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation ("androidx.recyclerview:recyclerview:1.4.0")
 }
