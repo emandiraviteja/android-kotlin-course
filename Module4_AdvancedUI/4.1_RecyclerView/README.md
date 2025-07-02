@@ -134,8 +134,8 @@ Uses DiffUtil with ListAdapter
 Shows a toast message on item click
 
 **What files required**
-Student model
-StudentDiffCallback
-StudentAdapter
-MainActivity
-XML layouts (`activity_main.xml` and `item_student.xml`)
+- Student model
+- StudentDiffCallback
+- StudentAdapter
+- MainActivity
+- XML layouts (`activity_main.xml` and `item_student.xml`)
