@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">6.3_Coroutines</string>
+    <string name="fetching_data">Fetching data...</string>
+</resources>
