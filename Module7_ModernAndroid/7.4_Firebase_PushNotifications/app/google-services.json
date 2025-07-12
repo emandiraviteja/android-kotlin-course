@@ -1,0 +1,281 @@
+{
+  "project_info": {
+    "project_number": "995167710324",
+    "firebase_url": "https://wordslist-a3bcb.firebaseio.com",
+    "project_id": "wordslist-a3bcb",
+    "storage_bucket": "wordslist-a3bcb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:a4baacdeccc14d70",
+        "android_client_info": {
+          "package_name": "com.aar.app.wordsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4121966223103572~3963712504"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:80213b637745877381b521",
+        "android_client_info": {
+          "package_name": "com.example.a74_firebase_pushnotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:9c9c526d5b5b9d7981b521",
+        "android_client_info": {
+          "package_name": "com.example.tejaloan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:7424b3e1b9b593d981b521",
+        "android_client_info": {
+          "package_name": "com.hcl.lemnisksampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:614cf9a71f7d1fde81b521",
+        "android_client_info": {
+          "package_name": "com.hclcdp.bankingdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:a5894f12d0cf86b7",
+        "android_client_info": {
+          "package_name": "oboulo.oboulo.wordslist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-891q2sqfdma398jfd430lo9afsv5r1it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "oboulo.oboulo.wordslist",
+            "certificate_hash": "de000d7ece4837874cab4192a6ecb1501aeb7b43"
+          }
+        },
+        {
+          "client_id": "995167710324-b3qp4c2dg22qgj1obqrdeorqk6u4l773.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "oboulo.oboulo.wordslist",
+            "certificate_hash": "efd6cf1a950938ca56f4463f81f6fc0231c88886"
+          }
+        },
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4121966223103572~4839944740"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995167710324:android:ae9613737fde9e2581b521",
+        "android_client_info": {
+          "package_name": "teju.medicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LyUN-AZ57_m0cqo5GUrQyv2AfayiQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995167710324-nkmt42gcv5invct5vboc258dut02g2g9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995167710324-01bcn8rg7onukl95qmhethct0m3pvbki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "personal.LoanNotificer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
